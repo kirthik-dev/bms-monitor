@@ -2,7 +2,7 @@ name: BMS Monitor
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
+    - cron: '* * * * *'  # Every 1 minute
   workflow_dispatch:  # Manual trigger option
 
 jobs:
